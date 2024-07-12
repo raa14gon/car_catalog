@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 850px;
+    height: 450px;
+    border-radius: 10px;
+    color: white;
+}
+
+.div_sedans {
+    height: 100%;
+    width: 40%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #E38525;
+    padding: 40px;
+}
+
+.div_sedans h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.div_sedans p {
+    font-weight: 200;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+.div_sedansbottom {
+    margin-top: 65px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: #E38525;
+}
+
+.div_suvs {
+    height: 100%;
+    width: 40%;
+    background-color: #016871;
+    padding: 40px;
+}
+
+.div_suvs h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.div_suvs p {
+    font-weight: 200;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+.div_suvsbottom  {
+    margin-top: 65px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: #016871;
+}
+
+
+.div_luxury {
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 40%;
+    background-color: #003F3E;
+    padding: 40px;
+}
+
+.div_luxury h1 {
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.div_luxury p {
+    font-weight: 200;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+.div_luxurybottom  {
+    margin-top: 65px;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: #003F3E;
+}
